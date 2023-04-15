@@ -1,12 +1,8 @@
-#include <stdio.h>
-
-int main(void)
-{
-  
-  // Step ( 1 ) : Print Hello, World
-  
-  
-  
-  //Step ( 2 ) : Print Hello, Your Name
+#include<stdio.h>
+#include<cs50.h>
+int main(void){
+printf("hello, world\n");
+string pop=get_string("what is your name?  :  ");
+printf("hello  %s\n" ,pop);
 
 }
